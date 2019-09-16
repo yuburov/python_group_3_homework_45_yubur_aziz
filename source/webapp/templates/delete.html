@@ -11,7 +11,7 @@
 {% endblock %}
 {% block content %}
     <h1 class="text-center">Are you sure to delete {{ task }}?</h1>
-    <form method="POST"  class="text-center" action="{% url 'del_marked' %}">
+    <form method="POST"  class="text-center" action="{% url 'delete_view' task.pk %}">
         {% csrf_token %}
         <p><input type="submit" value="Confirm"></p>
         <p><a href="{% url 'task_view' task.pk %}">Cancel</a></p>
