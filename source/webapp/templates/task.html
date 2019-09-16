@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block link %}
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+{% endblock %}
+
+{% block menu %}
+    <li><a href="{% url 'update_view' task.pk %}">Update</a></li>
+    <li><a href="{% url 'delete_view' task.pk %}">Delete</a></li>
+
+{% endblock %}
+
+{% block title %}Task view{% endblock %}
+{% block content %}
+     <h1>{{ task.description }}</h1>
+    <p>Status: <b>{{ task.status }}</b>. Date of completion: <b>{{ task.date_of_completion }}</b></p>
+    <div><p class="textarea">{{ task.specific }}</p></div>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block link %}
+        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+{% endblock %}
+
+{% block title %}
+  Add task
+{% endblock %}
+
+{% block content %}
+    <h1>Add new task</h1>
+    <form action="{% url 'task_create' %}" method="post">
+        {% csrf_token %}
+        {% include 'partial/task_form.html' with button_text="Create" %}
+    </form>
+{% endblock %}

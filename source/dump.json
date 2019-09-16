@@ -1,0 +1,90 @@
+[
+{
+  "model": "webapp.task",
+  "pk": 1,
+  "fields": {
+    "description": "some long description about new task",
+    "specific": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad alias aut ex id illum ipsa iure libero molestiae necessitatibus nobis, quas quasi rem repudiandae sed totam?",
+    "status": "new",
+    "date_of_completion": "2019-10-10"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 2,
+  "fields": {
+    "description": "some another long description about another new task",
+    "specific": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, unde, voluptates! Accusamus consectetur deserunt eligendi et expedita explicabo illo optio perferendis repellat repellendus sapiente sed sit, sunt ullam!",
+    "status": "new",
+    "date_of_completion": "2019-09-23"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 4,
+  "fields": {
+    "description": "This task has been done in August, 31",
+    "specific": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequatur, eligendi impedit ipsam labore nobis optio repellendus. Dicta iure laboriosam veritatis!",
+    "status": "done",
+    "date_of_completion": "2019-08-31"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 5,
+  "fields": {
+    "description": "description about task, which in progress at the moment",
+    "specific": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam et fuga fugit rerum. Ab fugiat laboriosam sunt?",
+    "status": "in_progress",
+    "date_of_completion": "2019-09-11"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 6,
+  "fields": {
+    "description": "something interesting task",
+    "specific": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consectetur consequatur eum facere hic laboriosam, nisi quam unde.",
+    "status": "new",
+    "date_of_completion": "2019-10-25"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 7,
+  "fields": {
+    "description": "something interesting task",
+    "specific": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eos labore, maxime neque odio rerum sit voluptas voluptatibus! Iste nihil praesentium quisquam recusandae.",
+    "status": "new",
+    "date_of_completion": "2019-10-25"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 13,
+  "fields": {
+    "description": "Interesting task about interesting things",
+    "specific": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid eius id itaque molestiae nemo odit quia reprehenderit totam voluptate.",
+    "status": "in_progress",
+    "date_of_completion": "2019-11-13"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$6dR639zvCUnO$u/DUFfBv3xoxM8ttB8fKq41yDc9OGZlP3pKB9SI86zo=",
+    "last_login": "2019-09-05T14:31:35.456Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "\u0415\u0433\u043e\u0440",
+    "last_name": "\u041c\u0438\u0442\u0440\u0443\u0448\u0438\u043d",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-09-04T08:38:37Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
